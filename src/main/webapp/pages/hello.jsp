@@ -8,6 +8,6 @@
 </head>
 <body>
 	I like Spring Boot by - ${name}
-	I like Spring Boot again - ${key}
+	I like Spring Boot again - ${actor}
 </body>
 </html>

@@ -43,7 +43,10 @@
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
 		</dependency>
-
+		<dependency>
+			 <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-data-rest</artifactId>
+        </dependency>
 	
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<dependency>
@@ -51,7 +54,12 @@
 		    <artifactId>tomcat-jasper</artifactId>
 		    <version>9.0.33</version>
 		</dependency>
-		
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+		<dependency>
+		    <groupId>com.fasterxml.jackson.dataformat</groupId>
+		    <artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
+				
 		
 	</dependencies>
 

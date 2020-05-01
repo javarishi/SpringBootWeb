@@ -14,7 +14,7 @@ public class Actor {
 	
 	@Id
 	@GeneratedValue
-	private int actorId;
+	private Integer actorId;
 	
 	@Column(name = "first_name")
 	private String firstName;
